@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(blue,white,yellow,green);
+    height: 630px;
+}
+
+.weather-app{
+    width: 400px;
+    height: 450px;
+    background-image: linear-gradient(red,yellow);
+    margin: 100px auto;
+    border-radius: 10px;
+}
+.search_container{
+    width: auto;
+    height: 120px;
+    /* background-color: aqua; */
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin: 25px 0px;
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 5px 5px 5px 10px;
+    border: 1px solid red;
+    
+}
+button{
+    width: 55px;
+    height: 42px;
+    margin: 0px 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 30px;
+    border: 1px solid red;
+}
+.items{
+    width: auto;
+    height: auto;
+    /* background-color: rgb(178, 224, 129); */
+    margin: 0px auto;
+    padding: 10px;
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+}
+h4{
+    font-size: 20px;
+}
+img{
+    width: 80px;
+    height: 70px;
+}
+.left{
+    float: left;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.right{
+    float: right;
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+p{
+    font-size: 17px;
+}
+
+h6{
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    top: 90px;
+}
